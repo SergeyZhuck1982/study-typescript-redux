@@ -1,4 +1,4 @@
-import { useApDispatch } from '../hook';
+import { useApDispatch } from '../store/hook';
 import {toggleComplete, removeTodo, Todo} from '../store/todoSlice';
 
 const TodoItem: React.FC<Todo> = ({ id, title, completed }) => {

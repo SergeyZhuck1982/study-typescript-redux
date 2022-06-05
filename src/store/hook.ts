@@ -1,5 +1,5 @@
 import { useDispatch, useSelector, TypedUseSelectorHook } from "react-redux";
-import { RootState, AppDispatch } from "./store";
+import { RootState, AppDispatch } from ".";
 
 
 /**Хуки создаються для того чтобы каждый раз при вызове системных хуков не прописывать тип */
